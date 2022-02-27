@@ -98,6 +98,9 @@
     <Compile Include="Women.Designer.cs">
       <DependentUpon>Women.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Book.resx">
+      <DependentUpon>Book.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contact.resx">
       <DependentUpon>Contact.cs</DependentUpon>
     </EmbeddedResource>

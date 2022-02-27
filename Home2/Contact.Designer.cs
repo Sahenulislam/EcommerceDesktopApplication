@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textMassage = new System.Windows.Forms.RichTextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -39,7 +40,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textMassage = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,6 +60,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(548, 492);
             this.panel1.TabIndex = 0;
+            // 
+            // textMassage
+            // 
+            this.textMassage.Location = new System.Drawing.Point(114, 298);
+            this.textMassage.Name = "textMassage";
+            this.textMassage.Size = new System.Drawing.Size(375, 121);
+            this.textMassage.TabIndex = 15;
+            this.textMassage.Text = "";
+            this.textMassage.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
             // label7
             // 
@@ -178,21 +187,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Dhaka, Bangladesh";
             // 
-            // textMassage
-            // 
-            this.textMassage.Location = new System.Drawing.Point(114, 298);
-            this.textMassage.Name = "textMassage";
-            this.textMassage.Size = new System.Drawing.Size(375, 121);
-            this.textMassage.TabIndex = 15;
-            this.textMassage.Text = "";
-            this.textMassage.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
-            // 
             // Contact
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(827, 479);
+            this.ClientSize = new System.Drawing.Size(827, 490);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
