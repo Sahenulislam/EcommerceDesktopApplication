@@ -41,5 +41,11 @@ namespace Home2
             cmd.ExecuteNonQuery();
             conn.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            user_login ob1 = new user_login();
+            ob1.Show();
+        }
     }
 }
