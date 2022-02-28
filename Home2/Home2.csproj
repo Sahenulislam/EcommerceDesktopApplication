@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_product.Designer.cs">
+      <DependentUpon>add_product.cs</DependentUpon>
+    </Compile>
     <Compile Include="admin_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,12 +110,33 @@
     <Compile Include="Shoe.Designer.cs">
       <DependentUpon>Shoe.cs</DependentUpon>
     </Compile>
+    <Compile Include="user_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_login.Designer.cs">
+      <DependentUpon>user_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_panel.Designer.cs">
+      <DependentUpon>user_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_reg.Designer.cs">
+      <DependentUpon>user_reg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Women.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Women.Designer.cs">
       <DependentUpon>Women.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="add_product.resx">
+      <DependentUpon>add_product.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="admin_login.resx">
       <DependentUpon>admin_login.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +162,15 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="user_login.resx">
+      <DependentUpon>user_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_panel.resx">
+      <DependentUpon>user_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_reg.resx">
+      <DependentUpon>user_reg.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
