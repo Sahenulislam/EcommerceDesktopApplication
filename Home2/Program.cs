@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace Home2
 {
+
     internal static class Program
     {
         /// <summary>
