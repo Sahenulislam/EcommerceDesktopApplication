@@ -16,5 +16,24 @@ namespace Home2
         {
             InitializeComponent();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string Username = username.Text;
+            string Password = password.Text;
+            string Email = email.Text;
+            string ConfirmPassword = conformpassword.Text;
+            if(Password!=ConfirmPassword)
+            {
+                MessageBox.Show("Password did't Match");
+                user_reg ob = new user_reg();
+                ob.Show();   
+            }
+        }
     }
 }

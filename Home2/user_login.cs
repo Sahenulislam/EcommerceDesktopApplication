@@ -19,6 +19,12 @@ namespace Home2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            user_reg ob = new user_reg();
+            ob.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
 
         }
     }
