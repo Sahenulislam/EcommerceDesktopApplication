@@ -64,3 +64,4 @@ D:\Ecommerce apps\Home2\obj\Debug\Home2.csproj.CoreCompileInputs.cache
 D:\Ecommerce apps\Home2\obj\Debug\Home2.csproj.CopyComplete
 D:\Ecommerce apps\Home2\obj\Debug\Home2.exe
 D:\Ecommerce apps\Home2\obj\Debug\Home2.pdb
+D:\Ecommerce apps\Home2\obj\Debug\Home2.Book.resources

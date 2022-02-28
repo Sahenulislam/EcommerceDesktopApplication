@@ -36,6 +36,7 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.vScrollBar2 = new System.Windows.Forms.VScrollBar();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.vScrollBar2 = new System.Windows.Forms.VScrollBar();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
@@ -72,6 +72,7 @@
             this.label2.Size = new System.Drawing.Size(89, 17);
             this.label2.TabIndex = 11;
             this.label2.Text = "Search here....";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 
@@ -135,6 +136,13 @@
             this.button12.TabIndex = 15;
             this.button12.Text = "Home";
             this.button12.UseVisualStyleBackColor = false;
+            // 
+            // vScrollBar2
+            // 
+            this.vScrollBar2.Location = new System.Drawing.Point(970, 136);
+            this.vScrollBar2.Name = "vScrollBar2";
+            this.vScrollBar2.Size = new System.Drawing.Size(24, 615);
+            this.vScrollBar2.TabIndex = 15;
             // 
             // button10
             // 
@@ -219,13 +227,6 @@
             this.button1.Text = "Women";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // vScrollBar2
-            // 
-            this.vScrollBar2.Location = new System.Drawing.Point(970, 136);
-            this.vScrollBar2.Name = "vScrollBar2";
-            this.vScrollBar2.Size = new System.Drawing.Size(24, 615);
-            this.vScrollBar2.TabIndex = 15;
             // 
             // Form1
             // 

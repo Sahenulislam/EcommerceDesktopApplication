@@ -58,5 +58,10 @@ namespace Home2
             Contact f7 = new Contact();
             f7.Show();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

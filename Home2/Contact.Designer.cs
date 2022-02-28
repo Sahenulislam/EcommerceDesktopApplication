@@ -58,7 +58,7 @@
             this.panel1.Location = new System.Drawing.Point(283, -6);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(548, 492);
+            this.panel1.Size = new System.Drawing.Size(545, 496);
             this.panel1.TabIndex = 0;
             // 
             // textMassage

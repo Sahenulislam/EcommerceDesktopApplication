@@ -11,6 +11,10 @@ using MySql.Data.MySqlClient;
 
 namespace Home2
 {
+
+
+
+
     public partial class Contact : Form
     {
         MySqlConnection connection = new MySqlConnection();
@@ -27,11 +31,6 @@ namespace Home2
             MessageBox.Show(UserName);
             MessageBox.Show(UserEmail);
             MessageBox.Show(UserMassage);
-            /*string server = "localhost";
-            string database = ".shop";
-            string username = "root";
-            string password = "";
-            string constring = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + username + ";" + "password=" + password + ";";*/
             MySqlConnection conn = new MySqlConnection("datasource=localhost;username=root;password=;database=.shop");
             conn.Open();
             string query = "insert into user_msg(Id,name,email,massage)values('NULL','" + UserName + "','" + UserEmail + "','" + UserMassage + "');";
