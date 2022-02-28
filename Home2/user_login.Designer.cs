@@ -145,13 +145,14 @@
             this.label1.Size = new System.Drawing.Size(132, 30);
             this.label1.TabIndex = 9;
             this.label1.Text = "User Login";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // user_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(352, 502);
+            this.ClientSize = new System.Drawing.Size(1030, 660);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
