@@ -65,3 +65,9 @@ D:\Ecommerce apps\Home2\obj\Debug\Home2.csproj.CopyComplete
 D:\Ecommerce apps\Home2\obj\Debug\Home2.exe
 D:\Ecommerce apps\Home2\obj\Debug\Home2.pdb
 D:\Ecommerce apps\Home2\obj\Debug\Home2.Book.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.admin_login.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.admin_panel.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.add_product.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.user_login.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.user_panel.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.user_reg.resources

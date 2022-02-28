@@ -11,10 +11,6 @@ using MySql.Data.MySqlClient;
 
 namespace Home2
 {
-
-
-
-
     public partial class Contact : Form
     {
         MySqlConnection connection = new MySqlConnection();
