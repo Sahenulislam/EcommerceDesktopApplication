@@ -31,15 +31,17 @@ namespace Home2
             if(Password!=ConfirmPassword)
             {
                 MessageBox.Show("Password did't Match");
-                user_reg ob = new user_reg();
-                ob.Show();   
+                user_reg ob1 = new user_reg();
+                ob1.Show();   
             }
-            MySqlConnection conn = new MySqlConnection("datasource=localhost;username=root;password=;database=.shop");
+            MySqlConnection conn = new MySqlConnection("datasource=localhost;username=root;password=;database=#shop");
             conn.Open();
             string query = "insert into user_login(id,User_name,email,password)values('NULL','" + Username + "','" + Email + "','" + Password + "');";
             MySqlCommand cmd = new MySqlCommand(query, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
+            user_login ob = new user_login();
+            ob.Show();
         }
     }
 }

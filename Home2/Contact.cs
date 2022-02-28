@@ -27,7 +27,7 @@ namespace Home2
             MessageBox.Show(UserName);
             MessageBox.Show(UserEmail);
             MessageBox.Show(UserMassage);
-            MySqlConnection conn = new MySqlConnection("datasource=localhost;username=root;password=;database=.shop");
+            MySqlConnection conn = new MySqlConnection("datasource=localhost;username=root;password=;database=#shop");
             conn.Open();
             string query = "insert into user_msg(Id,name,email,massage)values('NULL','" + UserName + "','" + UserEmail + "','" + UserMassage + "');";
             MySqlCommand cmd = new MySqlCommand(query, conn);
