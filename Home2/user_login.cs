@@ -19,6 +19,7 @@ namespace Home2
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Close();
             user_reg ob = new user_reg();
             ob.Show();
         }
@@ -34,15 +35,38 @@ namespace Home2
             string Password = password.Text;
             MySqlConnection conn = new MySqlConnection("datasource=localhost;username=root;password=;database=#shop");
             conn.Open();
-            MySqlCommand Command=new MySqlCommand("select *from user_login");
-            MySqlDataReader Reader = Command.ExecuteReader();
-            while(Reader.Read())
+            string query = "select *from user_login;";
+            MySqlCommand command = new MySqlCommand(query,conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            bool f = false;
+            while(reader.Read())
             {
-
+                if (reader.GetString(1)==Username&&reader.GetString(3)==Password)
+                {
+                    f = true;
+                    break; 
+                }
             }
             conn.Close();
-            user_login ob = new user_login();
-            ob.Show();
+            if (f==true)
+            {
+                this.Close();
+                user_panel ObjectUserPanel = new user_panel();
+                ObjectUserPanel.Show();
+            }
+            else
+            {
+                MessageBox.Show("Wrong Username or Password");
+                this.Close();
+                user_login ob = new user_login();
+                ob.Show();
+            }
+           
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
