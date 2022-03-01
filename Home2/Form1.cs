@@ -71,5 +71,26 @@ namespace Home2
             //this.Close();
             f8.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            if (Side.Width == 225)
+            {
+                Side.Width = 33;
+            }
+            else
+                Side.Width = 225;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            admin_login a1 = new admin_login();
+            a1.Show();
+        }
     }
 }

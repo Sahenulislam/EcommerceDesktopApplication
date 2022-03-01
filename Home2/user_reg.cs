@@ -49,5 +49,11 @@ namespace Home2
             user_login ob1 = new user_login();
             ob1.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
     }
 }
