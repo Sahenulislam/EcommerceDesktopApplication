@@ -15,14 +15,7 @@ namespace Home2
         public Form1()
         {
             InitializeComponent();
-<<<<<<< HEAD
-            this.MinimumSize = new Size(600, 600);
-=======
-<<<<<<< HEAD
-=======
-            this.MinimumSize = new Size(600, 500);
->>>>>>> 2aa37a697ae3341268dacf8ce9f0047421717060
->>>>>>> b1383ac81dfdeaad7cbf481eaeeb017453a14d06
+            this.MinimumSize = new Size(60, 50);
             this.CenterToScreen();
         }
 
