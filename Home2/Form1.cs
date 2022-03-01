@@ -15,6 +15,8 @@ namespace Home2
         public Form1()
         {
             InitializeComponent();
+            this.MinimumSize = new Size(600, 500);
+            this.CenterToScreen();
         }
 
         private void button1_Click(object sender, EventArgs e)

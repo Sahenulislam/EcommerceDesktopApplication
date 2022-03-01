@@ -15,6 +15,8 @@ namespace Home2
         public admin_panel()
         {
             InitializeComponent();
+            this.MinimumSize = new Size(2000, 2000);
+            this.CenterToScreen();
         }
 
         private void button5_Click(object sender, EventArgs e)

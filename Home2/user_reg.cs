@@ -15,6 +15,8 @@ namespace Home2
         public user_reg()
         {
             InitializeComponent();
+            this.MinimumSize = new Size(600, 500);
+            this.CenterToScreen();
         }
 
         private void label4_Click(object sender, EventArgs e)
