@@ -15,7 +15,10 @@ namespace Home2
         public admin_login()
         {
             InitializeComponent();
+<<<<<<< HEAD
+=======
             this.MinimumSize = new Size(300, 100);
+>>>>>>> 2aa37a697ae3341268dacf8ce9f0047421717060
             this.CenterToScreen();
         }
 
