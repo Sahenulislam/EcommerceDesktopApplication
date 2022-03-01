@@ -15,6 +15,8 @@ namespace Home2
         public add_product()
         {
             InitializeComponent();
+            this.MinimumSize = new Size(600, 500);
+            this.CenterToScreen();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
