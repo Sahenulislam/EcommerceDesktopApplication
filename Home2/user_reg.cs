@@ -52,8 +52,8 @@ namespace Home2
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
-            f1.Show();
+            Form1 Form1Object = new Form1();
+            Form1Object.Show();
         }
     }
 }

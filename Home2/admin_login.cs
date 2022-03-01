@@ -22,5 +22,10 @@ namespace Home2
             Form1 f1 = new Form1();
             f1.Show();
         }
+
+        private void admin_login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
