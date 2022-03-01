@@ -66,9 +66,7 @@ namespace Home2
 
         private void button5_Click(object sender, EventArgs e)
         {
-
             user_login f8 = new user_login();
-            //this.Close();
             f8.Show();
         }
 
@@ -77,6 +75,7 @@ namespace Home2
 
         }
 
+<<<<<<< HEAD
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             if (Side.Width == 225)
@@ -91,6 +90,11 @@ namespace Home2
         {
             admin_login a1 = new admin_login();
             a1.Show();
+=======
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+>>>>>>> 9dacb78fe6005dc099a1efedbea727dbe185a0ec
         }
     }
 }
