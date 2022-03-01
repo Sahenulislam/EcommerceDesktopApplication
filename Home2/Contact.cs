@@ -17,6 +17,7 @@ namespace Home2
         public Contact()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -24,15 +25,16 @@ namespace Home2
             string UserName = textName.Text;
             string UserEmail = textEmail.Text;
             string UserMassage = textMassage.Text;
-            MessageBox.Show(UserName);
-            MessageBox.Show(UserEmail);
-            MessageBox.Show(UserMassage);
             MySqlConnection conn = new MySqlConnection("datasource=localhost;username=root;password=;database=#shop");
             conn.Open();
             string query = "insert into user_msg(Id,name,email,massage)values('NULL','" + UserName + "','" + UserEmail + "','" + UserMassage + "');";
             MySqlCommand cmd = new MySqlCommand(query, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
+            MessageBox.Show("Successfully sent");
+            this.Hide();
+            Contact ContactObject = new Contact();
+            ContactObject.Show();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -62,6 +64,7 @@ namespace Home2
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form1 f1 = new Form1();
             f1.Show();
         }

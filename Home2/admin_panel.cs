@@ -15,18 +15,27 @@ namespace Home2
         public admin_panel()
         {
             InitializeComponent();
-            this.MinimumSize = new Size(2000, 2000);
+            this.MinimumSize = new Size(20, 20);
             this.CenterToScreen();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form1 From1Object = new Form1();
+            From1Object.Show();
         }
 
         private void admin_panel_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 From1Object = new Form1();
+            From1Object.Show();
         }
     }
 }

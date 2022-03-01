@@ -15,7 +15,7 @@ namespace Home2
         public user_login()
         {
             InitializeComponent();
-            this.MinimumSize = new Size(600, 500);
+            this.MinimumSize = new Size(60, 50);
             this.CenterToScreen();
         }
 
@@ -52,7 +52,6 @@ namespace Home2
             conn.Close();
             if (f==true)
             {
-                //this.Close();
                 this.Hide();
                 user_panel ObjectUserPanel = new user_panel();
                 ObjectUserPanel.Show();
@@ -80,6 +79,11 @@ namespace Home2
         }
 
         private void user_login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }

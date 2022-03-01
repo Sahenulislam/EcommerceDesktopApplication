@@ -36,5 +36,22 @@ namespace Home2
             Form1 Form1Object = new Form1();
             Form1Object.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string Username = username.Text;
+            string Password = password.Text;
+            if(Username==""||Password=="")
+            {
+                this.Hide();
+                this.Show();
+            }
+            else
+            {
+                this.Hide();
+                admin_panel admin_panelObject = new admin_panel();
+                admin_panelObject.Show();
+            }
+        }
     }
 }

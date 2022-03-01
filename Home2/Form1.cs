@@ -15,7 +15,7 @@ namespace Home2
         public Form1()
         {
             InitializeComponent();
-            this.MinimumSize = new Size(600, 500);
+            this.MinimumSize = new Size(600, 600);
             this.CenterToScreen();
         }
 
@@ -98,6 +98,7 @@ namespace Home2
 
         private void button6_Click(object sender, EventArgs e)
         {
+            this.Hide();
             admin_login a1 = new admin_login();
             a1.Show();
 
