@@ -17,18 +17,16 @@ namespace Home2
             InitializeComponent();
         }
 
-<<<<<<< HEAD
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form1 HomeObject = new Form1();
             HomeObject.Show();
-=======
+
         private void button4_Click(object sender, EventArgs e)
         {
             Form1 f1 = new Form1();
             f1.Show();
->>>>>>> 57673994577fab32e22d1f04012879796fcd403d
         }
     }
 }
