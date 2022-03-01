@@ -216,7 +216,7 @@
             this.Side.Location = new System.Drawing.Point(0, 0);
             this.Side.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Side.Name = "Side";
-            this.Side.Size = new System.Drawing.Size(65, 1102);
+            this.Side.Size = new System.Drawing.Size(35, 1102);
             this.Side.TabIndex = 18;
             // 
             // top
@@ -227,10 +227,10 @@
             this.top.Controls.Add(this.pictureBox1);
             this.top.Controls.Add(this.button12);
             this.top.Dock = System.Windows.Forms.DockStyle.Top;
-            this.top.Location = new System.Drawing.Point(65, 0);
+            this.top.Location = new System.Drawing.Point(35, 0);
             this.top.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.top.Name = "top";
-            this.top.Size = new System.Drawing.Size(1676, 62);
+            this.top.Size = new System.Drawing.Size(1706, 62);
             this.top.TabIndex = 19;
             // 
             // button6
@@ -265,6 +265,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.Side.ResumeLayout(false);
