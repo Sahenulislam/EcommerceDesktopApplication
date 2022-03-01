@@ -51,13 +51,14 @@ namespace Home2
             if (f==true)
             {
                 //this.Close();
+                this.Hide();
                 user_panel ObjectUserPanel = new user_panel();
                 ObjectUserPanel.Show();
             }
             else
             {
                 MessageBox.Show("Wrong Username or Password");
-                //this.Close();
+                this.Hide();
                 user_login ob = new user_login();
                 ob.Show();
             }
