@@ -15,6 +15,8 @@ namespace Home2
         public user_panel()
         {
             InitializeComponent();
+            this.MinimumSize = new Size(600, 500);
+            this.CenterToScreen();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -22,6 +24,7 @@ namespace Home2
             this.Hide();
             Form1 HomeObject = new Form1();
             HomeObject.Show();
+        }
 
         private void button4_Click(object sender, EventArgs e)
         {
