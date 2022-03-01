@@ -66,10 +66,18 @@ namespace Home2
 
         private void button5_Click(object sender, EventArgs e)
         {
-
             user_login f8 = new user_login();
-            //this.Close();
             f8.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
