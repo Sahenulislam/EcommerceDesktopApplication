@@ -15,6 +15,7 @@ namespace Home2
         public Form1()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -96,6 +97,7 @@ namespace Home2
 
         private void button6_Click(object sender, EventArgs e)
         {
+            this.Hide();
             admin_login a1 = new admin_login();
             a1.Show();
 

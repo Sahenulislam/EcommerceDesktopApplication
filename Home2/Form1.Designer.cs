@@ -32,7 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.vScrollBar2 = new System.Windows.Forms.VScrollBar();
             this.button5 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button10 = new System.Windows.Forms.Button();
@@ -90,13 +89,6 @@
             this.button12.Text = "Home";
             this.button12.UseVisualStyleBackColor = false;
             // 
-            // vScrollBar2
-            // 
-            this.vScrollBar2.Location = new System.Drawing.Point(1293, 167);
-            this.vScrollBar2.Name = "vScrollBar2";
-            this.vScrollBar2.Size = new System.Drawing.Size(24, 757);
-            this.vScrollBar2.TabIndex = 15;
-            // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -128,10 +120,10 @@
             this.button10.BackgroundImage = global::Home2.Properties.Resources.furnituree;
             this.button10.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button10.Location = new System.Drawing.Point(736, 817);
+            this.button10.Location = new System.Drawing.Point(713, 652);
             this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(391, 234);
+            this.button10.Size = new System.Drawing.Size(342, 234);
             this.button10.TabIndex = 9;
             this.button10.Text = "Furniture";
             this.button10.UseVisualStyleBackColor = true;
@@ -142,10 +134,10 @@
             this.button9.BackgroundImage = global::Home2.Properties.Resources.shoe;
             this.button9.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button9.Location = new System.Drawing.Point(231, 817);
+            this.button9.Location = new System.Drawing.Point(284, 652);
             this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(377, 234);
+            this.button9.Size = new System.Drawing.Size(312, 234);
             this.button9.TabIndex = 8;
             this.button9.Text = "Shoe";
             this.button9.UseVisualStyleBackColor = true;
@@ -156,10 +148,10 @@
             this.button4.BackgroundImage = global::Home2.Properties.Resources.bag;
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(736, 512);
+            this.button4.Location = new System.Drawing.Point(713, 378);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(391, 257);
+            this.button4.Size = new System.Drawing.Size(342, 236);
             this.button4.TabIndex = 3;
             this.button4.Text = "Bag";
             this.button4.UseVisualStyleBackColor = true;
@@ -170,10 +162,10 @@
             this.button3.BackgroundImage = global::Home2.Properties.Resources.book;
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(231, 512);
+            this.button3.Location = new System.Drawing.Point(284, 378);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(377, 257);
+            this.button3.Size = new System.Drawing.Size(312, 236);
             this.button3.TabIndex = 2;
             this.button3.Text = "Book";
             this.button3.UseVisualStyleBackColor = true;
@@ -184,10 +176,10 @@
             this.button2.BackgroundImage = global::Home2.Properties.Resources.men;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(736, 193);
+            this.button2.Location = new System.Drawing.Point(713, 117);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(391, 255);
+            this.button2.Size = new System.Drawing.Size(342, 232);
             this.button2.TabIndex = 1;
             this.button2.Text = "Men";
             this.button2.UseVisualStyleBackColor = true;
@@ -198,10 +190,10 @@
             this.button1.BackgroundImage = global::Home2.Properties.Resources.womenn;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(231, 193);
+            this.button1.Location = new System.Drawing.Point(284, 117);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(377, 255);
+            this.button1.Size = new System.Drawing.Size(312, 232);
             this.button1.TabIndex = 0;
             this.button1.Text = "Women";
             this.button1.UseVisualStyleBackColor = true;
@@ -230,7 +222,7 @@
             this.top.Location = new System.Drawing.Point(35, 0);
             this.top.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.top.Name = "top";
-            this.top.Size = new System.Drawing.Size(1706, 62);
+            this.top.Size = new System.Drawing.Size(1245, 62);
             this.top.TabIndex = 19;
             // 
             // button6
@@ -251,10 +243,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1741, 1102);
+            this.ClientSize = new System.Drawing.Size(1280, 1102);
             this.Controls.Add(this.top);
             this.Controls.Add(this.Side);
-            this.Controls.Add(this.vScrollBar2);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button4);
@@ -287,7 +278,6 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.BindingSource bindingSource1;
-        private System.Windows.Forms.VScrollBar vScrollBar2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel Side;
