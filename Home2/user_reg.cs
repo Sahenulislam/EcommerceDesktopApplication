@@ -40,12 +40,14 @@ namespace Home2
             MySqlCommand cmd = new MySqlCommand(query, conn);
             cmd.ExecuteNonQuery();
             conn.Close();
+            this.Hide();
             user_login ob = new user_login();
             ob.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             user_login ob1 = new user_login();
             ob1.Show();
         }

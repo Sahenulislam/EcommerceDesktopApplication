@@ -19,42 +19,49 @@ namespace Home2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Women f1 = new Women();
             f1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Men f2 = new Men();
             f2.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Book f3 = new Book();
             f3.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Bag f4 = new Bag();
             f4.Show();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Shoe f5 = new Shoe();
             f5.Show();
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Furniture f6 = new Furniture();
             f6.Show();
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Contact f7 = new Contact();
             f7.Show();
         }
@@ -66,8 +73,10 @@ namespace Home2
 
         private void button5_Click(object sender, EventArgs e)
         {
+            this.Hide();
             user_login f8 = new user_login();
             f8.Show();
+
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -75,7 +84,6 @@ namespace Home2
 
         }
 
-<<<<<<< HEAD
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             if (Side.Width == 225)
@@ -90,11 +98,8 @@ namespace Home2
         {
             admin_login a1 = new admin_login();
             a1.Show();
-=======
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
 
->>>>>>> 9dacb78fe6005dc099a1efedbea727dbe185a0ec
+
         }
     }
 }
