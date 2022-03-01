@@ -26,7 +26,7 @@ namespace Home2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           this.Hide();
             Men f2 = new Men();
             f2.Show();
         }
@@ -40,7 +40,7 @@ namespace Home2
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           this.Hide();
             Bag f4 = new Bag();
             f4.Show();
         }

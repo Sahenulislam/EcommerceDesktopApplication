@@ -135,12 +135,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(1025, 562);
-=======
+
             this.ClientSize = new System.Drawing.Size(457, 597);
             this.Controls.Add(this.pictureBox1);
->>>>>>> 57673994577fab32e22d1f04012879796fcd403d
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.textBox2);
