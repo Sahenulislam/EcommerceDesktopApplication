@@ -93,6 +93,7 @@
             this.button5.TabIndex = 4;
             this.button5.Text = "Logout";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -156,6 +157,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "admin_panel";
             this.Text = "admin_panel";
+            this.Load += new System.EventHandler(this.admin_panel_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -16,5 +16,16 @@ namespace Home2
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
+
+        private void admin_login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
