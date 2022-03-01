@@ -88,7 +88,7 @@ namespace Home2
         {
             if (Side.Width == 225)
             {
-                Side.Width = 33;
+                Side.Width = 35;
             }
             else
                 Side.Width = 225;
@@ -99,6 +99,11 @@ namespace Home2
             admin_login a1 = new admin_login();
             a1.Show();
 
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
