@@ -21,8 +21,9 @@ namespace Home2
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form1 Form1Object = new Form1();
-            Form1Object.Show();
+            this.Hide();
+            admin_panel admin_panelObject= new admin_panel();
+            admin_panelObject.Show();
         }
 
         private void add_product_Load(object sender, EventArgs e)

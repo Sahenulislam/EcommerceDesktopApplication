@@ -37,5 +37,12 @@ namespace Home2
             Form1 From1Object = new Form1();
             From1Object.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            add_product add_productObject = new add_product();
+            add_productObject.Show();
+        }
     }
 }
