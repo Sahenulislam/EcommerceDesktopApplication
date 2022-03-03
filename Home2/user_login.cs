@@ -87,5 +87,10 @@ namespace Home2
         {
 
         }
+
+        private void application_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

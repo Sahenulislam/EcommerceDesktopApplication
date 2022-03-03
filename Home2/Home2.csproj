@@ -223,5 +223,14 @@
   <ItemGroup>
     <None Include="Resources\password.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
