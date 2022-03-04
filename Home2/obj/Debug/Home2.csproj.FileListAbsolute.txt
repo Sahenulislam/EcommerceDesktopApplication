@@ -140,3 +140,4 @@ C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.csproj.CopyComplete
 C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.exe
 C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.pdb
 C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.dashboard.resources
+C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.Form2.resources

@@ -76,7 +76,7 @@ namespace Home2
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            user_login f8 = new user_login();
+            dashboard f8 = new dashboard();
             f8.Show();
 
         }
