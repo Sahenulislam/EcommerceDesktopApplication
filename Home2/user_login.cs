@@ -53,7 +53,7 @@ namespace Home2
             if (f==true)
             {
                 this.Hide();
-                user_panel ObjectUserPanel = new user_panel();
+                user_panel ObjectUserPanel = new user_panel(); 
                 ObjectUserPanel.Show();
             }
             else
@@ -80,7 +80,7 @@ namespace Home2
 
         private void user_login_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -90,7 +90,14 @@ namespace Home2
 
         private void application_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            Form1 Form1Object = new Form1();
+            Form1Object.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -204,7 +204,7 @@
             this.Side.Dock = System.Windows.Forms.DockStyle.Left;
             this.Side.Location = new System.Drawing.Point(0, 0);
             this.Side.Name = "Side";
-            this.Side.Size = new System.Drawing.Size(26, 615);
+            this.Side.Size = new System.Drawing.Size(26, 628);
             this.Side.TabIndex = 18;
             // 
             // top
@@ -237,7 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(977, 615);
+            this.ClientSize = new System.Drawing.Size(977, 628);
             this.Controls.Add(this.top);
             this.Controls.Add(this.Side);
             this.Controls.Add(this.button10);
