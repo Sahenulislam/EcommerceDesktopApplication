@@ -108,6 +108,12 @@
     <Compile Include="Furniture.Designer.cs">
       <DependentUpon>Furniture.cs</DependentUpon>
     </Compile>
+    <Compile Include="layout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="layout.Designer.cs">
+      <DependentUpon>layout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Men.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,12 @@
     </Compile>
     <Compile Include="Shoe.Designer.cs">
       <DependentUpon>Shoe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="user_login.cs">
       <SubType>Form</SubType>
@@ -198,8 +210,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+<<<<<<< HEAD
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+=======
     <EmbeddedResource Include="Shoe.resx">
       <DependentUpon>Shoe.cs</DependentUpon>
+>>>>>>> 4541d415079fa7ee1a9a6f5ad204c212b388e71a
     </EmbeddedResource>
     <EmbeddedResource Include="user_login.resx">
       <DependentUpon>user_login.cs</DependentUpon>

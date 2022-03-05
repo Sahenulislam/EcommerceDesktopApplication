@@ -165,6 +165,10 @@ C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.csproj.CoreCompileInputs.
 C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.exe
 C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.pdb
 >>>>>>> 17fece76a61dcffca4ab54beb86f054498511651
+<<<<<<< HEAD
+D:\Ecommerce apps\Home2\obj\Debug\Home2.Women.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.UserControl1.resources
+=======
 C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Home2.exe.config
 C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Home2.exe
 C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Home2.pdb
@@ -206,3 +210,4 @@ C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Men.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Shoe.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Bag.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Furniture.resources
+>>>>>>> 4541d415079fa7ee1a9a6f5ad204c212b388e71a
