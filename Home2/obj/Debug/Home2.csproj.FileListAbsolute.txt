@@ -141,5 +141,27 @@ C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.exe
 C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.pdb
 C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.dashboard.resources
 C:\Users\User\Desktop\project\Home2\obj\Debug\Home2.Form2.resources
+<<<<<<< HEAD
 D:\Ecommerce apps\Home2\obj\Debug\Home2.dashboard.resources
 D:\Ecommerce apps\Home2\obj\Debug\Home2.Form2.resources
+=======
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.exe.config
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.add_product.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.admin_login.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.admin_panel.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.Book.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.Contact.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.dashboard.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.Form1.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.Form2.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.Properties.Resources.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.user_login.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.user_panel.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.user_reg.resources
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.csproj.GenerateResource.cache
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.exe
+C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.pdb
+>>>>>>> 17fece76a61dcffca4ab54beb86f054498511651
