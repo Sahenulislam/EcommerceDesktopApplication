@@ -24,7 +24,7 @@ namespace Home2
             MySqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                Console.WriteLine(reader.GetString(2));
+                MessageBox.Show(reader.GetString(2));
             }
             conn.Close();
         }
