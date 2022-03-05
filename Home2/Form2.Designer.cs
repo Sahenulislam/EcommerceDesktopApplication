@@ -71,7 +71,7 @@
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Location = new System.Drawing.Point(3, 14);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(923, 23);
+            this.panel3.Size = new System.Drawing.Size(11, 23);
             this.panel3.TabIndex = 0;
             // 
             // Form2
