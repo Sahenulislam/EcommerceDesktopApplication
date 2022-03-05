@@ -165,5 +165,49 @@ C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.csproj.CoreCompileInputs.
 C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.exe
 C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.pdb
 >>>>>>> 17fece76a61dcffca4ab54beb86f054498511651
+<<<<<<< HEAD
 D:\Ecommerce apps\Home2\obj\Debug\Home2.Women.resources
 D:\Ecommerce apps\Home2\obj\Debug\Home2.UserControl1.resources
+=======
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Home2.exe.config
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Home2.exe
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Home2.pdb
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\MySql.Data.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Google.Protobuf.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\ZstdNet.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\System.Memory.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\System.Buffers.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\MySql.Data.xml
+C:\Users\User\Desktop\New folder (2)\Home2\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.exe.config
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.add_product.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.admin_login.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.admin_panel.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Book.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Contact.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.dashboard.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Form1.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Form2.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Properties.Resources.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.user_login.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.user_panel.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.user_reg.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.csproj.GenerateResource.cache
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.csproj.CopyComplete
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.exe
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.pdb
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Women.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Men.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Shoe.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Bag.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Furniture.resources
+>>>>>>> 4541d415079fa7ee1a9a6f5ad204c212b388e71a

@@ -16,5 +16,12 @@ namespace Home2
         {
             InitializeComponent();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1ob = new Form1();
+            form1ob.Show();
+        }
     }
 }

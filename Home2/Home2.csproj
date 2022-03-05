@@ -167,6 +167,9 @@
     <EmbeddedResource Include="admin_panel.resx">
       <DependentUpon>admin_panel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bag.resx">
+      <DependentUpon>Bag.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Book.resx">
       <DependentUpon>Book.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +185,12 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Furniture.resx">
+      <DependentUpon>Furniture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Men.resx">
+      <DependentUpon>Men.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -192,8 +201,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Shoe.resx">
+      <DependentUpon>Shoe.cs</DependentUpon>
+>>>>>>> 4541d415079fa7ee1a9a6f5ad204c212b388e71a
     </EmbeddedResource>
     <EmbeddedResource Include="user_login.resx">
       <DependentUpon>user_login.cs</DependentUpon>
@@ -288,6 +302,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\password2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restore1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
