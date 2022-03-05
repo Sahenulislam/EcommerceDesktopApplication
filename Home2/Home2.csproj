@@ -189,6 +189,9 @@
     <EmbeddedResource Include="user_reg.resx">
       <DependentUpon>user_reg.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Women.resx">
+      <DependentUpon>Women.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
