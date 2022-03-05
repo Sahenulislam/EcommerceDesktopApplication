@@ -204,3 +204,5 @@ C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.pdb
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Women.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Men.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Shoe.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Bag.resources
+C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Furniture.resources
