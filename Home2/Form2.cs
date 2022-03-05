@@ -15,16 +15,16 @@ namespace Home2
         public Form2()
         {
             InitializeComponent();
-            Timer.start();
+            //Timer.Start();
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
             for (int i = 0; i < 266; i++)
             {
-                panelLOAD.Width = panelLOAD.Width + 3;
-                Thread.Sleep(1);
+                //panelLOAD.Width = panelLOAD.Width + 3;
+               // thread.Sleep(1);
             }
-            Form2.Stop();
+            //Form2.Stop();
 
 
 

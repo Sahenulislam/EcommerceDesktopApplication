@@ -208,11 +208,11 @@
             this.Side.Location = new System.Drawing.Point(0, 0);
             this.Side.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Side.Name = "Side";
-<<<<<<< HEAD
+
             this.Side.Size = new System.Drawing.Size(26, 628);
-=======
+
             this.Side.Size = new System.Drawing.Size(40, 757);
->>>>>>> e548ad48234def5a48582a3cc2bdd8bab726eaae
+
             this.Side.TabIndex = 18;
             // 
             // top
@@ -247,11 +247,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
+
             this.ClientSize = new System.Drawing.Size(977, 628);
-=======
+
             this.ClientSize = new System.Drawing.Size(1303, 757);
->>>>>>> e548ad48234def5a48582a3cc2bdd8bab726eaae
+
             this.Controls.Add(this.top);
             this.Controls.Add(this.Side);
             this.Controls.Add(this.button10);
