@@ -165,3 +165,5 @@ C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.csproj.CoreCompileInputs.
 C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.exe
 C:\Users\User\Desktop\New folder\Home2\obj\Debug\Home2.pdb
 >>>>>>> 17fece76a61dcffca4ab54beb86f054498511651
+D:\Ecommerce apps\Home2\obj\Debug\Home2.Women.resources
+D:\Ecommerce apps\Home2\obj\Debug\Home2.UserControl1.resources

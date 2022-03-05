@@ -108,6 +108,12 @@
     <Compile Include="Furniture.Designer.cs">
       <DependentUpon>Furniture.cs</DependentUpon>
     </Compile>
+    <Compile Include="layout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="layout.Designer.cs">
+      <DependentUpon>layout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Men.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +127,12 @@
     </Compile>
     <Compile Include="Shoe.Designer.cs">
       <DependentUpon>Shoe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="user_login.cs">
       <SubType>Form</SubType>
@@ -180,6 +192,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="user_login.resx">
       <DependentUpon>user_login.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="user_reg.resx">
       <DependentUpon>user_reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Women.resx">
+      <DependentUpon>Women.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
