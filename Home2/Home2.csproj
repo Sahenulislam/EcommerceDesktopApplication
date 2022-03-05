@@ -155,6 +155,9 @@
     <EmbeddedResource Include="admin_panel.resx">
       <DependentUpon>admin_panel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bag.resx">
+      <DependentUpon>Bag.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Book.resx">
       <DependentUpon>Book.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furniture.resx">
+      <DependentUpon>Furniture.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Men.resx">
       <DependentUpon>Men.cs</DependentUpon>
