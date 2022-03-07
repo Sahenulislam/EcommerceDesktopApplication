@@ -44,10 +44,16 @@
             this.Side = new System.Windows.Forms.Panel();
             this.top = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.Side.SuspendLayout();
             this.top.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -67,7 +73,7 @@
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.button13.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button13.Location = new System.Drawing.Point(523, 4);
+            this.button13.Location = new System.Drawing.Point(640, 11);
             this.button13.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(183, 48);
@@ -81,7 +87,7 @@
             this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.button12.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button12.Location = new System.Drawing.Point(276, 4);
+            this.button12.Location = new System.Drawing.Point(429, 11);
             this.button12.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(176, 48);
@@ -95,7 +101,7 @@
             this.button5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.button5.Location = new System.Drawing.Point(97, 94);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(123, 63);
             this.button5.TabIndex = 17;
@@ -107,7 +113,7 @@
             // 
             this.pictureBox1.Image = global::Home2.Properties.Resources._1;
             this.pictureBox1.Location = new System.Drawing.Point(8, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -202,56 +208,86 @@
             // Side
             // 
             this.Side.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.Side.Controls.Add(this.button6);
             this.Side.Controls.Add(this.button5);
             this.Side.Controls.Add(this.label1);
             this.Side.Dock = System.Windows.Forms.DockStyle.Left;
             this.Side.Location = new System.Drawing.Point(0, 0);
-            this.Side.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Side.Margin = new System.Windows.Forms.Padding(4);
             this.Side.Name = "Side";
-
-            this.Side.Size = new System.Drawing.Size(26, 628);
-
-            this.Side.Size = new System.Drawing.Size(40, 757);
-
+            this.Side.Size = new System.Drawing.Size(39, 757);
             this.Side.TabIndex = 18;
             // 
             // top
             // 
             this.top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.top.Controls.Add(this.button6);
+            this.top.Controls.Add(this.pictureBox4);
+            this.top.Controls.Add(this.pictureBox3);
+            this.top.Controls.Add(this.pictureBox2);
             this.top.Controls.Add(this.button13);
             this.top.Controls.Add(this.pictureBox1);
             this.top.Controls.Add(this.button12);
             this.top.Dock = System.Windows.Forms.DockStyle.Top;
-            this.top.Location = new System.Drawing.Point(40, 0);
-            this.top.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.top.Location = new System.Drawing.Point(39, 0);
+            this.top.Margin = new System.Windows.Forms.Padding(4);
             this.top.Name = "top";
-            this.top.Size = new System.Drawing.Size(1263, 76);
+            this.top.Size = new System.Drawing.Size(1264, 76);
             this.top.TabIndex = 19;
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(781, 4);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button6.Location = new System.Drawing.Point(95, 178);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(204, 48);
+            this.button6.Size = new System.Drawing.Size(126, 75);
             this.button6.TabIndex = 18;
             this.button6.Text = "Admin Login";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Image = global::Home2.Properties.Resources.cross;
+            this.pictureBox2.Location = new System.Drawing.Point(1217, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 28);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Image = global::Home2.Properties.Resources.minimize;
+            this.pictureBox3.Location = new System.Drawing.Point(1180, 13);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 27);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox4.Image = global::Home2.Properties.Resources.restore;
+            this.pictureBox4.Location = new System.Drawing.Point(1143, 13);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(31, 27);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-
-            this.ClientSize = new System.Drawing.Size(977, 628);
-
             this.ClientSize = new System.Drawing.Size(1303, 757);
-
             this.Controls.Add(this.top);
             this.Controls.Add(this.Side);
             this.Controls.Add(this.button10);
@@ -270,6 +306,9 @@
             this.Side.ResumeLayout(false);
             this.Side.PerformLayout();
             this.top.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -291,6 +330,9 @@
         private System.Windows.Forms.Panel Side;
         private System.Windows.Forms.Panel top;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
