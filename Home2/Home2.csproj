@@ -118,6 +118,12 @@
     <Compile Include="Men.Designer.cs">
       <DependentUpon>Men.cs</DependentUpon>
     </Compile>
+    <Compile Include="payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="payment.Designer.cs">
+      <DependentUpon>payment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="pro_display.cs">
@@ -200,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Men.resx">
       <DependentUpon>Men.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="payment.resx">
+      <DependentUpon>payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -354,6 +363,24 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash on delivery.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bkash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nagad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mastercard.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
