@@ -222,6 +222,7 @@ C:\Users\User\Desktop\pro\Home2\obj\Debug\UserControl1.baml
 C:\Users\User\Desktop\pro\Home2\obj\Debug\UserControl2.baml
 C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.g.resources
 C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.pro_display.resources
+<<<<<<< HEAD
 D:\New folder (3)\pro\Home2\bin\Debug\Home2.exe.config
 D:\New folder (3)\pro\Home2\bin\Debug\Home2.exe
 D:\New folder (3)\pro\Home2\bin\Debug\Home2.pdb
@@ -277,3 +278,11 @@ D:\Ecommerce apps\Home2\obj\Debug\Home2.Men.resources
 D:\Ecommerce apps\Home2\obj\Debug\Home2.pro_display.resources
 D:\Ecommerce apps\Home2\obj\Debug\Home2.Shoe.resources
 D:\Ecommerce apps\Home2\obj\Debug\Home2.Women.resources
+=======
+C:\Users\User\Desktop\pro\Home2\bin\Debug\Interop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Interop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.UserControl3.resources
+>>>>>>> e90af71011655809d9dc1e67967290dce74963d4
