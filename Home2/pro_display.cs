@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Home2
 {
-    public partial class product_display : Form
+    public partial class pro_display : UserControl
     {
-        public product_display()
+        public pro_display()
         {
             InitializeComponent();
         }

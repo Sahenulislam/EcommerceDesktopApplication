@@ -214,3 +214,17 @@ C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Men.resources
 C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.product_display.resources
 C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Shoe.resources
 C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Women.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\UserControl1.g.cs
+C:\Users\User\Desktop\pro\Home2\obj\Debug\UserControl2.g.cs
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2_MarkupCompile.cache
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2_MarkupCompile.lref
+C:\Users\User\Desktop\pro\Home2\obj\Debug\UserControl1.baml
+C:\Users\User\Desktop\pro\Home2\obj\Debug\UserControl2.baml
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.g.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.pro_display.resources
+C:\Users\User\Desktop\pro\Home2\bin\Debug\Interop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Interop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.UserControl3.resources
