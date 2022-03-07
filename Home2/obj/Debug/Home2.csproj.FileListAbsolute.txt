@@ -206,3 +206,11 @@ C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Men.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Shoe.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Bag.resources
 C:\Users\User\Desktop\New folder (2)\Home2\obj\Debug\Home2.Furniture.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Bag.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.dashboard.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Form2.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Furniture.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Men.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.product_display.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Shoe.resources
+C:\Users\User\Desktop\pro\Home2\obj\Debug\Home2.Women.resources
